@@ -63,6 +63,19 @@ folder; nothing is vendored):
 - `ui-ux-pro-max` from [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
   (MIT): UI/UX design data and search, plus the `ui-styling`, `design`, `design-system`, `brand`,
   `banner-design` and `slides` skills.
+- `superpowers` from [obra/superpowers](https://github.com/obra/superpowers) (MIT): skills for TDD,
+  debugging, brainstorming, planning and code review.
+- `gsd-core` from [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) (MIT): spec-driven
+  phase loop (discuss, plan, execute, verify, ship), e.g. `/gsd-onboard`.
+
+Install once per machine (they need their own installers, so they cannot be plugins):
+
+- [gstack](https://github.com/garrytan/gstack) (MIT, needs Bun): `git clone --single-branch --depth 1
+  https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup`.
+  Skills such as `/office-hours`, `/review`, `/qa`, `/ship`.
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec) (MIT, needs Node ≥ 20.19):
+  `npm install -g @fission-ai/openspec@latest`, then `openspec init` in your project. Commands such
+  as `/opsx:explore` and `/opsx:propose`.
 
 Not in this repository:
 
