@@ -76,6 +76,8 @@ Install once per machine (they need their own installers, so they cannot be plug
 - [OpenSpec](https://github.com/Fission-AI/OpenSpec) (MIT, needs Node ≥ 20.19):
   `npm install -g @fission-ai/openspec@latest`, then `openspec init` in your project. Commands such
   as `/opsx:explore` and `/opsx:propose`.
+- [pi](https://github.com/earendil-works/pi) (MIT, needs Node ≥ 22.19): a separate, extensible
+  coding-agent CLI. `curl -fsSL https://pi.dev/install.sh | sh`, then run `pi`; update with `pi update`.
 
 Not in this repository:
 
